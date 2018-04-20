@@ -1,0 +1,18 @@
+
+
+Steps for Runnning demo.
+step 1:clone or download zip
+step 2:export shortner zip file which is inside test master folder.
+step 3:Copy shortner folder and pase into htdocs directory.
+step 4:Create database demo.
+step 5:Create table  shortened with following Fields
+
+CREATE TABLE `shortened` (
+  `id` int(11) NOT NULL,
+  `url` varchar(255) NOT NULL,
+  `shortened` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+ 
+
+step 6: Run following uRl:
+http://localhost/shortener/
